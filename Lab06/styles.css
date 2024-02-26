@@ -1,5 +1,5 @@
 body{ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 .colored-text {color: rgb(60, 255, 0); }
 .special{color:blueviolet}
-h1{font-size:x-small}
-h2{font-size: xx-small;}
+h1{font-size: 1.2em;}
+h2{font-size: 1.0em;}
