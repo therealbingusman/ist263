@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title> more css</title>
+        <style>
+         a {color:#0a2753;}
+         h2 {background-color: #e90000;}
+       h2 {background-color:#0017e9;}
+       body {background-image:(otto.jpg);}
+       .second {background-color: #0a2753;
+        border : 1px solid red;
+        padding: 30px;}
+       
+       
+       
+       </style>
+         </head>
+         <body>
+            <h1 I BLEED Orange></h1>
+           
+                    <class="bigclass"> I BLEED Orange</class>
+         </body>
+         </html>
+        
