@@ -3,7 +3,7 @@ body, h1, h2 { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grand
 h1{font-size: 15em;}
 h2 {font-size: 10em;}
 a {color:#0a2753;}
-h2 {background-color: #e90000;}
+h2 {color: #e90000;}
 h2 {background-color:#0017e9;}
 
 .second {background-color: #0a2753;
@@ -14,6 +14,6 @@ nav {background-color: #00dae9;}
 nav a {color: #e97c00;}
 nav a:hover {background-color:  #005de9;}
 nav {background-color: #530a37;
-    border : 1px solid rgb(0, 255, 21);
+    border : 1px solid rgb(14, 4, 4);
     padding: 10px;}
     nav {margin-bottom: 30px}
