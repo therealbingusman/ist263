@@ -5,28 +5,35 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Form</title>
 <style>
- body{color: black;}
+ body{background-color: black;}
+ 
+
+
+.flexbox {
+  display:flexbox;
+}
  
   .flex-container {
     display: flex;
     flex-direction: column;
-    align-items:flex-start; 
-  }
-
+    align-items:baseline; 
+    width: 100px; /* Set the desired width */
+  height: 50px; /* Set the desired height */
+  border-radius: 20px;}
   
   .flex-item {
-    flex: 0 0 50%; 
-    margin-bottom: 20px; 
-    background-color: #cf1313; 
+    flex: 0 0 25%; 
+    margin-bottom: 30px; 
+    background-color: #8700d659; 
     padding: 20px; 
-    border: 3px solid #d0e607; 
-    box-sizing: content-box; 
+    border: 3px solid #aaaaaa; 
+    box-sizing:content-box; 
   }
 
   
   iframe {
     width: 50%;
-    height: 150px; 
+    height: 100px; 
   }
   .img1 {float: left; margin-right: 10px;}
 	.clear {clear:both;}
@@ -35,9 +42,10 @@
 <body>
   <nav> <a href="index.html">home  </a> | <a href="skills.html"> skills </a> | <a href="contact.html">contact</a> 
   </nav>
-<div class="flex-container">
+
   
   <div class="flex-item">
+    
     <h1>Gabriel Worley</h1>
     <p>900 Crouse Avenue</p>
     <a href="mailto:glworley@syr.edu">Gabriel Worley Email</a>
@@ -50,6 +58,8 @@
 
   
   <div class="flex-item">
+    
+      <div class="flexbox">
     <h2>Contact Form</h2>
     <form>
       <label for="text_field">Text Field:</label><br>
