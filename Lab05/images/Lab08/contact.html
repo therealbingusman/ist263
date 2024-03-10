@@ -1,49 +1,82 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset = "utf-8">
-      <title> Contact </title>
-      <link rel="stylesheet" href="styles.css">
-      <style>
-        body {background-color: aqua;}
-      </style>
-  </head>
-    
-   
- <body>  
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<style>
+  /* Style for the flex container */
+  .flex-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+  }
 
+  /* Style for each flex item */
+  .flex-item {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add border for visualization */
+    box-sizing: border-box; /* Include padding and border in width */
+    margin-bottom: 20px; /* Add space between items */
+    width: 100%; /* Take up full width */
+  }
+
+  /* Style for the map iframe */
+  iframe {
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+  }
+
+  /* Style for the contact form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Style for form elements */
+  label, input, select, textarea, input[type="submit"] {
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
   <nav> <a href="index.html">home  </a> | <a href="skills.html"> skills </a> | <a href="contact.html">contact</a> 
   </nav>
-<a href="Capture.PNG">Bio Photo</a>
-  <h1>Gabriel Worley</h1>
-  <p>900 Crouse Avenue</p>
-  <a href="mailto:glworley@syr.edu">Gabriel Worley Email</a> 
-  <h2> My LinkedIn Profile </h2>
-  <h3> external link</h3>
-  <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
-  <a href="..\images\Logo-sized.png">LinkedIn photo</a>
-  <img src="..\images\Logo-sized.png" alt="my photo">
- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0555648023806!2d-76.1395272249878!3d43.0402623918596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1707019069643!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
- <meta content="viewport" content="width=device-width, initial-scale=1.0">
- <title>Contact form</title>
-  
-  
-   <h2>Contact form</h2>
-   
-   <form>
-     <label for="text_field">Text Field:</label><br>
-     <input type="text" id="text_field" name="text_field"><br><br>
-     
-     <label for="options">Select an option:</label><br>
-     <select id="options" name="options">
-       <option value="option1">Option 1</option>
-       <option value="option2">Option 2</option>
-       <option value="option3">Option 3</option>
-     </select><br><br>
-     
-     <label for="message">Message:</label><br>
-     <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-     
-     <input type="submit" value="Submit">
-   </form>
-    </body>
+<div class="flex-container">
+  <!-- First flexbox -->
+  <div class="flex-item">
+    <h1>Gabriel Worley</h1>
+    <p>900 Crouse Avenue</p>
+    <a href="mailto:glworley@syr.edu">Gabriel Worley Email</a>
+    <h2>My LinkedIn Profile</h2>
+    <h3>External Link</h3>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <a href="..\images\Logo-sized.png">LinkedIn photo</a>
+    <img src="..\images\Logo-sized.png" alt="My Photo">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0555648023806!2d-76.1395272249878!3d43.0402623918596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1707019069643!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <!-- Second flexbox -->
+  <div class="flex-item">
+    <h2>Contact Form</h2>
+    <form>
+      <label for="text_field">Text Field:</label>
+      <input type="text" id="text_field" name="text_field">
+
+      <label for="options">Select an option:</label>
+      <select id="options" name="options">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Footer Text Separation</title>
+<style>
+  /* Style for the footer */
+  footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+  }
 
+  /* Style for the separator */
+  .separator {
+    margin: 0 5px;
+  }
+</style>
+</head>
+<body>
+
+<footer>
+  <span>Copyright &copy; 2024 Your Website</span>
+  <span class="separator">|</span>
+  <span>Contact: contact@yourwebsite.com</span>
+</footer>
+
+</body>
+</html>
