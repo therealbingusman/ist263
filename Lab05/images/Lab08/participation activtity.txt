@@ -6,44 +6,49 @@
   <title>Intro to front end development</title>
   <link rel="stylesheet" href="styles.css">
 <style>
-    body {
-        margin: 0;
-        padding: 0;
+    
+    table {
+        width: 50%;
+        border-collapse: collapse;  border: black; align-self: center;}
+        
+       
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
     }
+    tr:nth-child(even) { background-color: red;}
+    h1 {text-align: center; }
+nav{text-align: center;}
 
-    nav {
-        text-align: center;
-    }
+.icon-container {
+  display: flex; /* Display the icons in a flex container */
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+}
 
-    h1 {
-        text-align: center;
-    }
+.icon-container div {
+  text-align: center; /* Center the text within each icon */
+  margin: 0 10px; /* Add some margin between icons */
+}
 
-    .icon-container {
-        display: flex;
-        justify-content: center; /* Horizontally center the icons */
-        flex-wrap: wrap; /* Allow wrapping of icons if they exceed container width */
-        gap: 20px; /* Add some space between icons */
-        padding: 20px; /* Add some padding around the icon container */
-    }
+.icon {
+  width: 100px; /* Set a fixed width for all images */
+  height: auto; /* Maintain aspect ratio */
+}
 
-    .icon-container > div {
-        text-align: center;
-        flex: 1; /* Each icon div takes equal space */
-        max-width: 200px; /* Limit the maximum width of each icon */
-    }
-
-    .icon {
-        width: 100%;
-        height: auto;
-    }
 </style>
-</head>
+
+
+    
 <body>
   <nav> <a href="index.html">home  </a> | <a href="skills.html"> skills </a> | <a href="contact.html">contact</a> 
   </nav>
 <h1>Technical skills</h1>
 
+
+
+ 
 <div class="icon-container">
   <div>
     <img src="fffffskillet.jpg" alt="Icon 1" class="icon">
@@ -66,5 +71,7 @@
     <p>I can handstand</p>
   </div>
 </div>
+</body>
+</html>
 </body>
 </html>

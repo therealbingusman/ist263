@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to front end development</title>
+  <style>
+    .container {
+      display: flex; /* Use flexbox to align items */
+    }
+
+    .body-content {
+      flex: 1; /* Let the body content take up remaining space */
+      padding: 20px;
+    }
+
+    .flexbox-container {
+      width: 300px; /* Adjust width as needed */
+      background-color: lightgray;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="body-content">
+      <nav>
+        <a href="index.html">home</a> | 
+        <a href="skills.html">skills</a> | 
+        <a href="contact.html">contact</a>
+      </nav>
+      <h1>Technical skills</h1>
+      <div class="icon-container">
+        <div>
+          <img src="fffffskillet.jpg" alt="Icon 1" class="icon">
+          <p>I can cook</p>
+        </div>
+        <div>
+          <img src="dicks.png" alt="Icon 2" class="icon">
+          <p>I can bench 225 Pounds</p>
+        </div>
+        <div>
+          <img src="forklift.jpg" alt="Icon 3" class="icon">
+          <p>I can operate a forklift</p>
+        </div>
+        <div>
+          <img src="laksdjf;lasdkjf.jpg" alt="Icon 4" class="icon">
+          <p>I can fish very well</p>
+        </div>
+        <div>
+          <img src="hand stand.jpg" alt="Icon 5" class="icon">
+          <p>I can handstand</p>
+        </div>
+      </div>
+    </div>
+    <div class="flexbox-container">
+      <!-- Content of your flexbox goes here -->
+      <h2>Flexbox Content</h2>
+      <p>This content will be displayed in the flexbox positioned to the right of the body text.</p>
+    </div>
+  </div>
+</body>
+</html>

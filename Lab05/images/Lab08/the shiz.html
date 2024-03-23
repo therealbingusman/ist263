@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to front end development</title>
+  <style>
+    nav{background-color: #2c3b8f6c;}
+    h1 {text-align: center; }
+    body {display: flex;  border: 2px solid rgb(0, 255, 21); padding: 20px; }
+.body-content {flex: 1; padding: 20px; }
+    .flexbox-container {width: 300px; background-color: lightgray; padding: 20px;}
+    .icon-container { display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; }
+    .icon-container > div {margin-right: 20px;}
+    .icon {width: 100px; height: auto; }
+    .icon-container {
+    display: flex; /* Using flexbox layout */
+    justify-content: center; /* Aligning items horizontally at the center */
+    align-items: stretch; /* Stretching items to match container height */
+    height: 100vh; /* Setting height for demonstration */
+}
+
+.icon {
+    margin: 0 10px; /* Adding margin between icons */
+    display: flex; /* Nested flexbox for centering the image */
+    justify-content: center; /* Aligning image horizontally at the center */
+    align-items: center; /* Aligning image vertically at the center */
+}
+
+.icon img {
+    max-width: 100%; /* Ensuring the image does not exceed its container */
+    max-height: 100%; /* Ensuring the image does not exceed its container */
+}
+</style>
+</head>
+<body>
+  <div class="body-content"> 
+    <nav>
+      <a href="index.html">home</a> | 
+      <a href="skills.html">skills</a> | 
+      <a href="contact.html">contact</a>
+    </nav>
+    <h1>Technical skills</h1>
+    <caption>big ol nuts big ol nuts big ol nuts ahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</caption>
+    <div class="icon-container">
+      <div>
+        <img src="fffffskillet.jpg" alt="Icon 1" class="icon">
+        <p>I can cook</p>
+      </div>
+      <div>
+        <img src="dicks.png" alt="Icon 2" class="icon">
+        <p>I can bench 225 Pounds</p>
+      </div>
+      <div>
+        <img src="forklift.jpg" alt="Icon 3" class="icon">
+        <p>I can operate a forklift</p>
+      </div>
+      <div>
+        <img src="laksdjf;lasdkjf.jpg" alt="Icon 4" class="icon">
+        <p>I can fish very well</p>
+      </div>
+      <div>
+        <img src="hand stand.jpg" alt="Icon 5" class="icon">
+        <p>I can handstand</p>
+      </div>
+    </div>
+  </div>
+  <div class="flexbox-container">
+   
+    <h2>Other notable skills</h2>
+    <p>Making poor decisions</p>
+    <p>painting acrylic art</p>
+    <p>writing in cursive</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox to the Right</title>
+<style>
+    /* Main grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto 1fr; /* Body content takes up auto width, flexbox takes up remaining space */
+        grid-gap: 20px; /* Gap between columns */
+    }
+
+    /* Style for the body content */
+    .body-content {
+        padding: 20px; /* Padding for the body content */
+        border: 2px solid #ccc; /* Border for visualization */
+    }
+
+    /* Style for the flexbox container */
+    .flexbox-container {
+        padding: 20px; /* Padding for the flexbox content */
+        border: 2px solid #ccc; /* Border for visualization */
+    }
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+    <!-- Body Content -->
+    <div class="body-content">
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="skills.html">Skills</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Technical Skills</h1>
+        <div class="icon-container">
+            <div>
+                <img src="fffffskillet.jpg" alt="Icon 1" class="icon">
+                <p>I can cook</p>
+            </div>
+            <div>
+                <img src="dicks.png" alt="Icon 2" class="icon">
+                <p>I can bench 225 Pounds</p>
+            </div>
+            <div>
+                <img src="forklift.jpg" alt="Icon 3" class="icon">
+                <p>I can operate a forklift</p>
+            </div>
+            <div>
+                <img src="laksdjf;lasdkjf.jpg" alt="Icon 4" class="icon">
+                <p>I can fish very well</p>
+            </div>
+            <div>
+                <img src="hand stand.jpg" alt="Icon 5" class="icon">
+                <p>I can handstand</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Flexbox Container -->
+    <div class="flexbox-container">
+        <!-- Flexbox Content -->
+        <h2>Flexbox Content</h2>
+        <p>This content will be displayed in the flexbox positioned to the right of the body text.</p>
+    </div>
+</div>
+
+</body>
+</html>
