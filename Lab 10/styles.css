@@ -1,10 +1,10 @@
-nav a {
-    
-  }
-  @media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 600px) {
     nav {
       display: block; 
+      text-align: center; 
+    }
+    nav a {
+      display: block; 
+      margin: 5px 0; 
     }
   }
- 
