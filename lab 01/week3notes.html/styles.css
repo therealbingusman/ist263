@@ -47,17 +47,3 @@ nav ul li a {
     color: #fff;
     text-decoration:solid;
 }
-
-
-
-
-@media screen and (max-width: 768px) {
-    main {
-        flex-direction:row;
-        align-items: center;
-    }
-
-    .flexbox {
-        width: 90%;
-    }
-}
