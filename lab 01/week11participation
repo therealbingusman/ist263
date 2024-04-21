@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+    <title> Participation activity </title>
+ <style>
+
+ </style>
+    <script>
+   function showAlert() {
+            alert("my first javascript program!");
+        }
+
+</script>
+</head>
+<body>
+    <h1 onclick="clicky();">click for a message</h1>
+    <a href="https://www.amazon.com" target="_blank">Click for a message</a>
+</body>
+</html>

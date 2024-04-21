@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<style>
+ body{background-color: black;}
+ img {
+    float: right; 
+    margin-right: 20px; 
+  }
+ 
+
+
+.flexbox {
+  display:flex;
+}
+ 
+  .flex-container {
+  
+  flex-wrap: wrap;
+    display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+
+
+  border-radius: 20px;}
+  
+  .flex-item {
+    flex: 0 0 25%; 
+    margin-bottom: 30px; 
+    background-color: #d600a059; 
+    padding: 20px; 
+    border: 3px solid #aaaaaa; 
+    box-sizing:content-box; 
+  }
+
+  
+  iframe {
+    width: 50%;
+    height: 100px; 
+  }
+  .img1 {float: left; margin-right: 10px;}
+	.clear {clear:both;}
+</style>
+</head>
+<body>
+  <nav> <a href="index.html">home  </a> | <a href="skills.html"> skills </a> | <a href="contact.html">contact</a> 
+  </nav>
+
+  
+  <div class="flex-item">
+    
+    <h1>Gabriel Worley</h1>
+    <p>900 Crouse Avenue</p>
+    <a href="mailto:glworley@syr.edu">Gabriel Worley Email</a>
+    <h2>My LinkedIn Profile</h2>
+    <h3>External Link</h3>
+    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+    <a href="Capture.PNG">LinkedIn photo</a>
+    <img src="Capture.PNG" alt="My Photo">
+  </div>
+
+  
+  <div class="flex-item">
+    
+      <div class="flexbox">
+    <h2>Contact Form</h2>
+    <form>
+      <label for="text_field">Text Field:</label><br>
+      <input type="text" id="text_field" name="text_field"><br><br>
+
+      <label for="options">Select an option:</label><br>
+      <select id="options" name="options">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.0555648023806!2d-76.1395272249878!3d43.0402623918596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1707019069643!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+</body>
+</html>
